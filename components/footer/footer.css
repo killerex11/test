@@ -1,0 +1,210 @@
+.footer{
+    margin-top: 100px;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-socials{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    align-items: center;
+}
+
+.footer-telegram{
+    background-color: #13A7E7;
+    border-radius: 20px;
+    height: 138px;
+    width: 126px;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/footer/telegram.svg");
+    background-position: center;
+    background-size: 52px;
+}
+
+.footer-vk {
+    border-radius: 20px;
+    height: 138px;
+    width: 708px;
+    background: linear-gradient(135deg, #2C0E33, #D32FAC, #FFC940);
+    padding: 8px 21px 30px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-vk-text{
+    font-size: 60px;
+    font-weight: 800;
+    width: 342px;
+}
+
+.footer-vk-link{
+    height: 33px;
+    width: 117px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 10px;
+    font-weight: 650;
+}
+
+.footer-vk-image{
+    position: relative;
+    width: 538px;
+    height: 198px;
+    background-image: url("../../assets/footer/vk-vladimir.png");
+    top: -68px;
+    left: 180px;
+    background-repeat: no-repeat;
+}
+
+.footer-rustam{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-rustam-sponsors{
+    gap: 35px;
+    align-items: center;justify-content: center;
+}
+
+.footer-rustam-sponsors-vk{
+    background-image: url("../../assets/sponsors/vk-play.svg");
+    width: 213px;
+    height: 40px;
+    background-size: 213px;
+    background-repeat: no-repeat;
+}
+
+.footer-rustam-sponsors-bb{
+    background-image: url("../../assets/sponsors/betboom.svg");
+    width: 157px;
+    height: 40px;
+    background-size: 156px;
+    background-repeat: no-repeat;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 94px;
+}
+
+.footer-logos{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logos-small{
+    background-image: url("../../assets/logos/logo-small-color.svg");
+    width: 57px;
+    height: 62px;
+}
+
+.footer-logos-full{
+    background-image: url("../../assets/logos/logo-full-white.svg");
+    width: 127px;
+    height: 39px;
+    background-repeat: no-repeat;
+}
+
+.footer-navigate{
+
+    border-radius: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    color: #FFFFFF;
+    font-size: 13px;
+    height: 61px;
+}
+
+.footer-nav-pages{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 82px;
+}
+
+.footer-nav-pickem{
+    color: #B5E600;
+    font-size: 13px;
+    font-weight: 650;
+    text-transform: uppercase;
+}
+
+.footer-nav-stream{
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    align-items: center;
+}
+
+.footer-nav-stream-live{
+    width: 101px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.footer-nav-stream-vk{
+    font-weight: 700;
+    color: #61B0F8;
+}
+
+.footer-nav-line{
+    width: 100%;
+    height: 1px;
+    background: #181818;
+    margin-top: 50px;
+}
+
+.footer-eop{
+    margin-top: 46px;
+    margin-bottom: 53px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+}
+
+.footer-eop-cry{
+    width: 115px;
+    height: 86px;
+    background-image: url("../../assets/footer/cry.png");
+    background-position: center;
+}
+
+.footer-eop-up{
+    width: 45px;
+    height: 67px;
+    background-image: url("../../assets/footer/up.svg");
+    background-position: center;
+}
+
+.footer-eop-desc{
+    font-size: 26px;
+    color: #FFFFFF;
+    font-weight: 200;
+}
+
+.footer-eop-desc mark{
+    font-weight: 500;
+}

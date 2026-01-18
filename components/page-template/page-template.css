@@ -1,0 +1,11 @@
+.bread-crumbs{
+    margin-top: 45px;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-bottom: 55px;
+}
+
+.bread-crumbs mark{
+    color: #B9E800;
+    font-weight: inherit;
+}

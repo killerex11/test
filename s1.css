@@ -1,0 +1,490 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf");
+}
+@font-face {
+    font-family: Anton;
+    src: url("assets/fonts/Anton/Anton-Regular.ttf");
+}
+
+@font-face {
+    font-family: Antonio;
+    src: url("assets/fonts/Antonio/Antonio-VariableFont_wght.ttf");
+}
+.default-block {
+    grid-column-start: 2;
+}
+.fame-banner{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 70px;
+    justify-items: center;
+    align-items: center;
+    
+    background: #0A0A0A;
+    border-radius: 37px;
+    width: 100%;
+    height: 183px;
+    
+    /* margin-top: 55px; */
+    margin-bottom: 83px;
+    
+    text-transform: uppercase;
+    
+    padding: 0 68px 0 43px;
+    box-sizing: border-box;
+}
+
+.fame-banner-title{
+    gap: 5px;
+}
+
+.fame-banner-title-title{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 49px;
+    line-height: 94%;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #fff;
+    text-wrap: nowrap;
+}
+
+.fame-banner-title-desc{
+    margin-left: 93px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 96%;
+    text-transform: uppercase;
+    text-align: right;
+    color: #d5b372;
+    text-wrap: nowrap;
+}
+
+
+.ksi-fame-banner-img{
+    height: 93px;
+    width: 173px;
+    
+    background-image: url('/assets/fame/s1/title.svg');;
+    
+}
+
+.flex {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+
+.champions {
+    width: 955px;
+    height: 604px;
+    background: none;
+    
+    padding-bottom: 50px;
+    
+}
+.place1 {
+    margin-left: 50px;
+    width: 156px;
+    height: 88px;
+    background: url('/assets/fame/s1/1 место.svg');
+    background-repeat: no-repeat;
+    padding-bottom: 28px;
+}
+
+.place2 {
+    margin-left: 50px;
+    width: 139px;
+    height: 75px;
+    background: url('/assets/fame/s1/2 место.svg');
+    background-repeat: no-repeat;
+    padding-bottom: 28px;
+    
+}
+
+.place3 {
+    margin-left: 50px;
+    width: 139px;
+    height: 75px;
+    background: url('/assets/fame/s1/3 место.svg');
+    background-repeat: no-repeat;
+    padding-bottom: 28px;
+    
+}
+
+.champ1-img{
+    margin-left: auto;
+    width: 195px;
+    height: 188px;
+    background-image: url('/assets/fame/s1/teams/Keysie/Големы\ Кейси.svg');
+    background-repeat: no-repeat;
+    padding-bottom: 9px;
+    
+}
+.champ2-img{
+    margin: auto;
+    width: 130px;
+    height: 175px;
+    background-image: url('/assets/fame/s1/teams/diamond/Вайфочки\ Даймонда.svg');
+    background-repeat: no-repeat;
+    padding-bottom: 9px;
+    
+}
+.champ3-img{
+    margin: auto;
+    width: 168px;
+    height: 175px;
+    background-image: url('/assets/fame/s1/teams/GeneraL_HS_/Аккаунты\ Генерала.svg');
+    background-repeat: no-repeat;
+    padding-bottom: 9px;
+    
+}
+
+.champ-name {
+    color: #FFFFFF;
+    text-align: center;
+    text-wrap: nowrap ;
+    padding-bottom: 9px;
+    font-family:  "Montserrat", medium;
+    line-height: 22px;
+    text-transform: uppercase;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 129%;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.champ2-reward {
+    font-size: 35px;
+    color: #C2C2C2;
+    text-align: center;
+    text-wrap: nowrap ;
+    font-family:  "Montserrat", medium;
+    line-height: 22px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    font-weight: 500;
+    line-height: 63%;
+    
+}
+.champ-heroes {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    font-size: 17px;
+    color: #818181;
+    text-align: center;
+    text-wrap: nowrap ;
+    text-transform: uppercase;
+    font-family:  "Montserrat", medium;
+    font-weight: 500;
+    line-height: 129%;
+    
+}
+.champ1-name {
+    font-size: 24px;
+    color: #D9C586;
+    text-align: center;
+    text-wrap: nowrap ;
+    padding-bottom: 9px;
+    font-family:  "Montserrat", medium;
+    line-height: 22px;
+    text-transform: uppercase;
+    text-transform: capitalize;
+    font-weight: 500;
+    line-height: 92%;
+    
+}
+
+.champ1-reward {
+    font-size: 35px;
+    font-weight: 800;
+    color: #D9C586;
+    text-align: center;
+    text-wrap: nowrap ;
+    font-family:  "Montserrat", medium;
+    line-height: 22px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    line-height: 63%;
+}
+
+.champ1-heroes {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    font-size: 17px;
+    color: #D9C586;
+    text-align: center;
+    text-wrap: nowrap ;
+    text-transform: uppercase;
+    font-family:  "Montserrat", medium;
+    font-weight: 500;
+    line-height: 129%;
+    
+}
+
+.heroes {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
+    width: 1170px;
+    height: 553px;
+    /* background: #fff; */
+    column-gap: 55px;
+    row-gap: 35px;
+    margin-bottom: 100px;
+    
+}
+.backplate {
+    background-color: #0A0A0A;
+    border-radius: 19px;
+    width: 190px;
+    height: 324px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.other-place {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 85%;
+    text-align: center;
+    text-wrap: nowrap ;
+    color: #fff;
+    padding: 37px 37px 29px 39px;
+    
+}
+
+.other-img1{
+    width: 115px;
+    height: 134px;
+    background-image: url('/assets/fame/s1/teams/Teamless/тимлес.svg');
+    background-repeat: no-repeat;
+    
+}
+.other-img2{
+    width: 114px;
+    height: 120px;
+    background-image: url('/assets/fame/s1/teams/Flashynthen1ght/флеш.svg');
+    background-repeat: no-repeat;
+    
+}
+.other-img3{
+    width: 92px;
+    height: 55px;
+    background-image: url('/assets/fame/s1/teams/Teynor/тейнор.svg');
+    background-repeat: no-repeat;
+    
+}
+.other-img4{
+    width: 115px;
+    height: 102px;
+    background-image: url('/assets/fame/s1/teams/Dimill/димилл.svg');
+    background-repeat: no-repeat;
+    
+}
+.other-img5{
+    width: 109px;
+    height: 70px;
+    background-image: url('/assets/fame/s1/teams/Smurf_tv/смурф.svg');
+    background-repeat: no-repeat;
+    
+}
+
+.other-name {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 129%;
+    text-align: center;
+    color: #fff;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: auto;
+    padding-bottom: 37px;
+
+    
+}
+
+.other-reward {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 73%;
+    text-align: center;
+    color: #dedede;
+    padding-top: 35px;
+    padding-bottom: 30px;
+
+}
+
+.other-heroes {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 11px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 147%;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    color: #818181;
+    text-wrap: nowrap ;
+}
+
+.group-stage {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    /* background-color: #fff; */
+    width: 1167px;
+    height: 711px;
+}
+
+.black{
+
+    background-color: #0A0A0A;
+    height: 107px;
+}
+.group-stage-title-wrapper { 
+    height: 100px;
+    width: 295px;
+}
+.group-stage-title {
+    text-transform: uppercase;
+    font-family:  "Montserrat", SemiBold;
+    font-weight: 500;
+    font-size: 35px;
+    color: #FFFFFF;
+    text-align: left;
+    text-wrap: nowrap ;
+    padding-top: 125px;
+    padding-bottom: 70px;
+    max-height: 100px;
+    width: 295px;
+}
+
+
+.group-stage-left {
+    background-color: #fff;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    height: 604px;
+    width: 553px;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.group-stage-right {
+    background-color: #fff;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    height: 604px;
+    width: 553px;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+}
+
+
+.group-stage-bottom-left {
+    background: rgb(44,14,51);
+    background: linear-gradient(90deg, rgba(44,14,51,1) 0%, rgba(211,47,172,1) 52%, rgba(255,201,64,1) 100%);
+    height: 26px;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    margin-bottom: 120px;
+
+}
+
+.group-stage-bottom-right {
+    background-color: #B5E600;
+    height: 26px;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    margin-bottom: 120px;
+}
+
+
+.stage-box{
+    display: block;
+    width: 111;
+    height: 121;
+}
+
+.group-stage-box-text {
+    font-weight: 800;
+    font-size: 28px;
+    color: #000000;
+    text-align: center;
+    font-family:  "Montserrat", bold;
+    text-transform: capitalize;
+    
+    
+}
+
+/* 3r1c */
+.group-stage-box-span {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    width: 111px;
+    height: 121px;
+    justify-items: center;
+    align-items: center;
+}
+/* 1r2c */
+.group-stage-box-span2 {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    width: 111px;
+    height: 121px;
+    justify-items: center;
+    align-items: center;
+}
+
+.w-l-line {
+    display: block;
+    width: 1px;
+    height: 500px;
+    color: black;
+    background-color: black;
+    position: relative;
+    margin-top: 52px;
+    opacity: .4;
+}
+
+.group-stage-left-img1{
+    width: 111px;
+    height: 121px;
+    background-image: url('/assets/fame/s1/teams/Smurf_tv/смурф.svg');
+    background-repeat: no-repeat;
+    
+}
