@@ -1,0 +1,317 @@
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "Archivo", sans-serif;
+    --third-family: "Graphik LC TT", sans-serif;
+  }
+@font-face {
+    font-family: Montserrat;
+    src: url("../../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("../../assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf");
+}
+@font-face {
+    font-family: Anton;
+    src: url("../../assets/fonts/Anton/Anton-Regular.ttf");
+}
+
+@font-face {
+    font-family: Antonio;
+    src: url("../../assets/fonts/Antonio/Antonio-VariableFont_wght.ttf");
+}
+html {
+    scroll-behavior: smooth ;
+  }
+  
+/*.default-block-grid {*/
+/*    grid-column-start: 2;*/
+/*    justify-items: center;*/
+/*}*/
+/*.default-block-grid{*/
+/*    display: grid;*/
+/*    grid-template-rows: repeat(1, 1fr);*/
+/*    grid-template-columns: repeat(1, 1fr);*/
+/*}*/
+.fame-banner{
+    display: flex;
+    justify-content: space-between;
+
+    justify-items: center;
+    align-items: center;
+    
+    background: #0A0A0A;
+    border-radius: 37px;
+    width: 100%;
+    height: 183px;
+    
+    /* margin-top: 55px; */
+    margin-bottom: 83px;
+    
+    text-transform: uppercase;
+    
+    padding: 0 96px 0 43px;
+    box-sizing: border-box;
+}
+
+.fame-banner-title{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.fame-banner-title-title{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 49px;
+    line-height: 94%;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.fame-banner-title-desc{
+    margin-left: 93px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 96%;
+    text-transform: uppercase;
+    text-align: right;
+    color: #d5b372;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ksi-fame-banner-img{
+    height: 183px;
+    width: 183px;
+    background-image: url('../../assets/fame/s4/Union.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    align-self: center;
+    justify-self: start;
+    
+}
+
+.champions {
+    width: 100%;
+    display: flex;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.champ {
+    width: 319px;
+    row-gap: 9px;
+    justify-items: center;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.champ-place {
+    width: 150px;
+    height: 150px;
+    justify-self: center;
+    align-self: start;
+
+}
+
+.champ-place-first {
+    background-image: url('../../assets/fame/s4/1место.svg');
+    background-position: center;
+    align-self: center;
+    background-repeat: no-repeat;
+
+}
+.champ-place-second {
+    background-image: url('../../assets/fame/s4/2место.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    background-position: center;
+
+}
+.champ-place-third {
+    background-image: url('../../assets/fame/s4/3место.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    background-position: center;
+}
+
+.champ-img {
+    width: 140px;
+    height: 140px;
+    justify-items: center;
+    align-items: center;
+    background-position: center;
+    margin-bottom: 10px;
+    
+}
+
+
+
+.champ-title {
+    justify-self: center;
+    align-self: center;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 129%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+
+.champ-reward {
+    justify-items: center;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 63%;
+    text-align: center;
+    color: #c2c2c2;
+}
+
+
+.thanks {
+    width: 1166px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 95px;
+}
+
+.thanks-text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 96%;
+    color: #fff;
+}
+
+.legends {
+    height: 275px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.legends-legends {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 105px 37px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    column-gap: 41px;
+}
+
+
+.legends-place {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 65%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.legends-reward {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 73%;
+    text-align: center;
+    color: #dedede;
+}
+
+.legends-img {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+
+.legends-title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 129%;
+    text-align: center;
+    color: #fff;
+}
+
+.medved {
+    background-image: url('../../assets/fame/s4/медведь.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;  
+}
+
+.nomanz {
+    background-image: url('../../assets/fame/s4/номанз.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.keysie {
+    background-image: url('../../assets/fame/s4/кейси.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.diamond {
+    background-image: url('../../assets/fame/s4/даймонд.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.unholy {
+    background-image: url('../../assets/fame/s4/анхоли.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+.battle-arena {
+    height: 782px;
+    width: 1165px;
+    background-image: url('../../assets/fame/s4/battle_arena.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 78px;
+    margin-top: 107px;
+}
+
+.hattest-top {
+    width: 1165px;
+    height: 780px;
+    background-image: url('../../assets/fame/s4/hattest_top.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 78px;
+
+}

@@ -24,17 +24,7 @@
 html {
     scroll-behavior: smooth ;
   }
-  
-.default-block {
-    grid-column-start: 2;
-    justify-items: center;
-    
-}
-.default-block{
-    display: grid;
-    grid-template-rows: repeat(1, 1fr);
-    grid-template-columns: repeat(1, 1fr);
-}
+
 .fame-banner{
     display: grid;
     grid-template-rows: repeat(1, 1fr);
@@ -99,27 +89,28 @@ html {
 
 .champions {
     width: 955px;
-    height: 604px;
     display: grid;
     grid-template-rows: repeat(1, 1fr);
     grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    align-items: center;
+    justify-items: end;
+    align-items: end;
+    align-self: center;
+
+    margin-bottom: 82px;
 }
 
 .champ {
     width: 319px;
-    height: 604px;
-    display: grid;
-    grid-template-rows: repeat(1, 88px) repeat(1, 188px) repeat(1, 30px) repeat(1, 24px) repeat(1, 154px);
-    grid-template-columns: repeat(1, 1fr);
-    row-gap: 9px;
     justify-items: center;
     align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .champ-place {
     width: 150px;
-    height: 150px;
+    height: 100px;
     justify-self: center;
     align-self: start;
 
@@ -175,14 +166,7 @@ html {
     align-self: center;
     justify-self: center;
     background-position: center;
-}
-
-.dimill-img2 {
-    background-image: url('../../assets/fame/s2/teams/dimill/димилл2.svg');
-    background-repeat: no-repeat;
-    align-self: center;
-    justify-self: center;
-    background-position: center;
+    background-size: contain;
 }
 
 .fasoollka-img1 {
@@ -234,36 +218,13 @@ html {
     background-position: center;
 }
 
-.likkrit-img1 {
-    background-image: url('../../assets/fame/s2/teams/likkrit/ликкрит.svg');
-    background-repeat: no-repeat;
-    align-self: center;
-    justify-self: center;
-    background-position: center;
-}
-
-.likkrit-img2 {
-    background-image: url('../../assets/fame/s2/teams/likkrit/ликкрит2.svg');
-    background-repeat: no-repeat;
-    align-self: center;
-    justify-self: center;
-    background-position: center;
-}
-
 .nomanz-img1 {
-    background-image: url('../../assets/fame/s2/teams/nomanz/номанз.svg');
+    background-image: url('../../assets/fame/s2/teams/Nomanz/номанз.svg');
     background-repeat: no-repeat;
     align-self: center;
     justify-self: center;
     background-position: center;
-}
-
-.nomanz-img2 {
-    background-image: url('../../assets/fame/s2/teams/nomanz/номанз2.svg');
-    background-repeat: no-repeat;
-    align-self: center;
-    justify-self: center;
-    background-position: center;
+    background-size: contain;
 }
 
 .smurf-img1 {
@@ -361,6 +322,7 @@ html {
     line-height: 63%;
     text-align: center;
     color: #c2c2c2;
+    margin-bottom: 30px;
 }
 
 .champ-heroes {
@@ -398,12 +360,13 @@ html {
 .heroes {
     margin-top: 100px;
     height: 553px;
-    display: grid;
-    grid-template-rows: repeat(1, 1fr);
-    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: row;
     justify-items: center;
     column-gap: 55px;
+    align-self: center;
 }
+
 
 
 .hero-card {
@@ -601,7 +564,7 @@ html {
 .group-stage-team-boxes {
     display: grid;
     grid-template-rows: repeat(1, 1fr);
-    grid-template-columns: 55px 74px 155px repeat(1, 1fr) 41px 30px 87px;
+    grid-template-columns: 80px 74px 155px repeat(1, 1fr) 41px 30px 87px;
     justify-items: center;
     align-content: flex-start;
     margin-bottom: 37px;
@@ -863,6 +826,24 @@ html {
     background-position: center;
 }
 
+.champions-lol-yasuo{
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s2/champions/yasuo/drunk.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.champions-lol-sylas{
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s2/champions/sylas/sylas.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .played-winrate {
     display: grid;
     grid-template-rows: repeat(1, 1fr);
@@ -1087,40 +1068,6 @@ html {
     align-items: center;
 }
 
-.line-top {
-    height: 60px;
-    background-image: url('../../assets/fame/s1/lanes/top.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.line-jng {
-    height: 60px;
-    background-image: url('../../assets/fame/s1/lanes/jng.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.line-mid {
-    height: 60px;
-    background-image: url('../../assets/fame/s1/lanes/mid.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.line-adc {
-    height: 60px;
-    background-image: url('../../assets/fame/s1/lanes/adc.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.line-sup {
-    height: 60px;
-    background-image: url('../../assets/fame/s1/lanes/sup.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
 .stats-by-team-info-name {
     font-family: var(--font-family);
@@ -1451,22 +1398,6 @@ html {
     background-position: center;
 }
 
-.dimill-img1 {
-    background-image: url('../../assets/fame/s2/teams/Dimill/димилл.svg');
-    background-repeat: no-repeat;
-    align-self: center;
-    justify-self: center;
-    background-position: center;
-}
-
-.dimill-img2 {
-    background-image: url('../../assets/fame/s2/teams/dimill/димилл2.svg');
-    background-repeat: no-repeat;
-    align-self: center;
-    justify-self: center;
-    background-position: center;
-}
-
 .fasoollka-img1 {
     background-image: url('../../assets/fame/s2/teams/fasoollka/фасолька.svg');
     background-repeat: no-repeat;
@@ -1533,51 +1464,12 @@ html {
 }
 
 .likkrit-img1 {
-    background-image: url('../../assets/fame/s2/teams/likkrit/ликкрит.svg');
+    background-image: url('../../assets/fame/s2/teams/Likkrit/likkrit.svg');
     background-repeat: no-repeat;
     align-self: center;
     justify-self: center;
     background-position: center;
-}
-
-.likkrit-img2 {
-    background-image: url('../../assets/fame/s2/teams/likkrit/ликкрит2.svg');
-    background-repeat: no-repeat;
-    align-self: center;
-    justify-self: center;
-    background-position: center;
-}
-
-.likkrit-img3 {
-    background-image: url('../../assets/fame/s2/teams/likkrit/ликкрит3.svg');
-    background-repeat: no-repeat;
-    align-self: center;
-    justify-self: center;
-    background-position: center;
-}
-
-.nomanz-img1 {
-    background-image: url('../../assets/fame/s2/teams/nomanz/номанз.svg');
-    background-repeat: no-repeat;
-    align-self: center;
-    justify-self: center;
-    background-position: center;
-}
-
-.nomanz-img2 {
-    background-image: url('../../assets/fame/s2/teams/nomanz/номанз2.svg');
-    background-repeat: no-repeat;
-    align-self: center;
-    justify-self: center;
-    background-position: center;
-}
-
-.nomanz-img3 {
-    background-image: url('../../assets/fame/s2/teams/nomanz/номанз3.svg');
-    background-repeat: no-repeat;
-    align-self: center;
-    justify-self: center;
-    background-position: center;
+    background-size: contain;
 }
 
 .smurf-img1 {
@@ -1930,7 +1822,7 @@ html {
 }
 
 .playoff-img {
-    background-image: url('../../assets/fame/s2/playoff/playoff2.svg');
+    background-image: url('../../assets/fame/s2/playoff/playoff2.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;

@@ -1,0 +1,94 @@
+body{
+    background: linear-gradient(#000000, #0E0E0E);
+}
+
+.title-block{
+    width: 1168px;
+    height: 183px;
+
+    background: url("../assets/fame/main/title.svg");
+}
+
+.title-block-text{
+    text-transform: uppercase;
+    margin-left: 44px;
+    justify-content: center;
+    height: 100%;
+}
+
+.title-block-text h1{
+    font-size: 49px;
+    font-weight: 900;
+    color: white;
+}
+
+.title-block-text p{
+    width: 213px;
+    font-size: 21px;
+    color: #D8C484;
+}
+
+.seasons{
+    gap: 45px;
+    margin-top: 45px;
+    margin-bottom: 160px;
+}
+
+.season-card{
+    width: 258px;
+    height: 399px;
+    background-color: #0D0D0D;
+    border-radius: 37px;
+    color: white;
+
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: calc(50% - 15px);
+    padding-bottom: 25px;
+    box-sizing: border-box;
+}
+
+.season-card-name{
+    text-transform: uppercase;
+    font-size: 21px;
+}
+
+.season-card-name mark{
+    color: #D5B372;
+    font-weight: inherit;
+}
+
+.season-card-link{
+    margin-top: 238px;
+    border-radius: 10px;
+    border: solid #D3AD6B 1px;
+    width: 146px;
+    height: 37px;
+    gap: 20px;
+
+    background-image: url("../assets/fame/main/go.svg");
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.season-card-link:hover{
+
+    color: black;
+
+    background-image: url("../assets/fame/main/go-hover.svg");
+}
+
+.season-card-link p{
+    margin-right: 30px;
+}
+
+.season-card-logo{
+    position: absolute;
+    width: 127px;
+    height: 103px;
+
+    margin-top: 430px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+}

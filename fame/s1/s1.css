@@ -1,0 +1,1477 @@
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "Archivo", sans-serif;
+    --third-family: "Graphik LC TT", sans-serif;
+  }
+@font-face {
+    font-family: Montserrat;
+    src: url("../../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("../../assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf");
+}
+@font-face {
+    font-family: Anton;
+    src: url("../../assets/fonts/Anton/Anton-Regular.ttf");
+}
+
+@font-face {
+    font-family: Antonio;
+    src: url("../../assets/fonts/Antonio/Antonio-VariableFont_wght.ttf");
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+.fame-banner{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 70px;
+    justify-items: center;
+    align-items: center;
+    
+    background: #0A0A0A;
+    border-radius: 37px;
+    width: 100%;
+    height: 183px;
+    
+    /* margin-top: 55px; */
+    margin-bottom: 83px;
+    
+    text-transform: uppercase;
+    
+    padding: 0 68px 0 43px;
+    box-sizing: border-box;
+}
+
+.fame-banner-title{
+    gap: 5px;
+    grid-area: 1/3;
+}
+
+.fame-banner-title-title{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 49px;
+    line-height: 94%;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #fff;
+    text-wrap: nowrap;
+}
+
+.fame-banner-title-desc{
+    margin-left: 93px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 96%;
+    text-transform: uppercase;
+    text-align: right;
+    color: #d5b372;
+    text-wrap: nowrap;
+}
+
+
+.ksi-fame-banner-img{
+    height: 93px;
+    width: 173px;
+    
+    background-image: url('../..//assets/fame/s1/title.svg');;
+    
+}
+
+.champions {
+    width: 955px;
+    height: 604px;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.champ {
+    width: 319px;
+    height: 604px;
+    display: grid;
+    grid-template-rows: repeat(1, 88px) repeat(1, 188px) repeat(1, 30px) repeat(1, 24px) repeat(1, 154px);
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 9px;
+    justify-items: center;
+    align-items: center;
+}
+.champ-place {
+    width: 150px;
+    height: 150px;
+    justify-self: center;
+    align-self: start;
+
+}
+
+.champ-place-first {
+    background-image: url('../../assets/fame/s1/1\ место.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    align-self: center;
+}
+.champ-place-second {
+    background-image: url('../../assets/fame/s1/2\ место.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    background-position: center;
+
+}
+.champ-place-third {
+    background-image: url('../../assets/fame/s1/3\ место.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    background-position: center;
+}
+
+.champ-img {
+    width: 200px;
+    height: 200px;
+    justify-items: center;
+    align-items: center;
+    background-position: center;
+}
+
+.keysie-img1 {
+    background-image: url('../../assets/fame/s1/teams/Keysie/Големы\ Кейси.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+.keysie-img2 {
+    background-image: url('../../assets/fame/s1/teams/Keysie/Големы\ Кейси\ -\ лого\ 2.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+.keysie-img3 {
+    background-image: url('../../assets/fame/s1/teams/Keysie/Големы\ Кейси\ -\ лого\ 3.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+.keysie-img4 {
+    background-image: url('../../assets/fame/s1/teams/Keysie/Големы\ Кейси\ -\ лого\ 4.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+.keysie-img5 {
+    background-image: url('../../assets/fame/s1/teams/Keysie/Големы\ Кейси\ -\ лого\ 5.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+
+.diamond-img1 {
+    background-image: url('../../assets/fame/s1/teams/diamond/Вайфочки\ Даймонда.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+.diamond-img2 {
+    background-image: url('../../assets/fame/s1/teams/diamond/вайфочки\ даймонда\ -\ лого\ 2.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+.diamond-img3 {
+    background-image: url('../../assets/fame/s1/teams/diamond/вайфочки\ даймонда\ 3.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+.dimill-img1 {
+    background-image: url('../../assets/fame/s1/teams/Dimill/димилл.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+.dimill-img2 {
+    background-image: url('../../assets/fame/s1/teams/Dimill/Волосы\ Димилла\ -\ лого\ 2.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+.dimill-img3 {
+    background-image: url('../../assets/fame/s1/teams/Dimill/Волосы\ Димилла\ -\ лого\ 3.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+.smurf-img1 {
+    background-image: url('../../assets/fame/s1/teams/Smurf_tv/смурф.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+.smurf-img2 {
+    background-image: url('../../assets/fame/s1/teams/Smurf_tv/дубины\ смурфа\ -\ лого\ 2.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+.smurf-img3 {
+    background-image: url('../../assets/fame/s1/teams/Smurf_tv/Дубины\ Смурфа\ -\ лого\ 3.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+.smurf-img4 {
+    background-image: url('../../assets/fame/s1/teams/Smurf_tv/Дубины\ Смурфа\ -\ лого\ 4.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+.smurf-img5 {
+    background-image: url('../../assets/fame/s1/teams/Smurf_tv/Дубины\ Смурфа\ -\ лого\ 5.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+
+.flash-img1 {
+    background-image: url('../../assets/fame/s1/teams/Flashynthen1ght/флеш.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+.flash-img2 {
+    background-image: url('../../assets/fame/s1/teams/Flashynthen1ght/Кисоньки\ Флеша\ -\ лого\ 2.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+.flash-img3 {
+    background-image: url('../../assets/fame/s1/teams/Flashynthen1ght/Кисоньки\ Флеша\ -\ лого\ 3.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+
+.gena-img1 {
+    background-image: url('../../assets/fame/s1/teams/GeneraL_HS_/Аккаунты\ Генерала.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+.gena-img2 {
+    background-image: url('../../assets/fame/s1/teams/GeneraL_HS_/Аккаунты\ Генерала\ -\ лого\ 2.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+.gena-img3 {
+    background-image: url('../../assets/fame/s1/teams/GeneraL_HS_/Аккаунты\ Генерала\ -\ лого\ 3.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+.teamless-img1 {
+    background-image: url('../../assets/fame/s1/teams/Teamless/тимлес.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+.teamless-img2 {
+    background-image: url('../../assets/fame/s1/teams/Teamless/Аферисты\ Тимлесса\ -\ лого\ 2.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+.teamless-img3 {
+    background-image: url('../../assets/fame/s1/teams/Teamless/Аферисты\ Тимлесса\ -\ лого\ 3.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+.teynor-img1 {
+    background-image: url('../../assets/fame/s1/teams/Teynor/тейнор.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+.teynor-img2 {
+    background-image: url('../../assets/fame/s1/teams/Teynor/Картавычи\ Тейнора\ -\ лого\ 2.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+.teynor-img3 {
+    background-image: url('../../assets/fame/s1/teams/Teynor/Картавычи\ Тейнора\ -\ лого\ 4.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+.teynor-img3 {
+    background-image: url('../../assets/fame/s1/teams/Teynor/Картавычи\ Тейнора\ -\ лого\ 3.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+
+.champ-title {
+    justify-self: center;
+    align-self: center;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 129%;
+    text-align: center;
+    color: #fff;
+
+}
+
+.champ-reward {
+    justify-items: center;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 63%;
+    text-align: center;
+    color: #c2c2c2;
+}
+
+.champ-heroes {
+    
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    height: 85px;
+    width: 319px;
+    justify-items: center;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 129%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #818181;
+    row-gap: 11px;
+}
+
+.goldy {
+    color: #d9c586; 
+}
+
+
+.heroes {
+    margin-top: 100px;
+    height: 553px;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    column-gap: 55px;
+}
+
+
+.hero-card {
+    border-radius: 19px;
+    width: 190px;
+    height: 312px;
+    background: #0a0a0a;
+    display: grid;
+    grid-template-rows: repeat(1, 85px) repeat(1, 134px) repeat(1, 93px) repeat(1, 87px) repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    grid-area: 1 ;
+}
+
+.hero-card-place {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 85%;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-card-img {
+    height: 182px;
+    width: 134px;
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+
+.hero-card-name {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 129%;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-card-reward {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 63%;
+    text-align: center;
+    color: #c2c2c2;
+}
+
+.hero-card-heroes {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    height: 85px;
+    width: 134px;
+    justify-items: center;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 147%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #818181;
+    row-gap: 11px;
+    
+}
+
+.group-stage {
+    margin-top: 100px;
+    width: 1167px;
+    display: grid;
+    grid-template-rows: repeat(2, 53px) repeat(1, minmax(78px, 1fr)) 26px;
+    grid-template-columns: 553px 61px 553px;
+    justify-items: center;
+}
+
+.group-stage-title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 35px;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #fff;
+    justify-self: start;
+}
+
+
+.group-stage-left {
+    width: 553px;
+    grid-area: 3/1;
+    background-color: #fff;
+    display: grid;
+    grid-template-rows: repeat(1, 78px) ;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.group-stage-right {
+    width: 553px;
+    grid-area: 3/3;
+    background-color: #121212;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+
+
+
+
+.group-stage-info {
+    height: 78px;
+    width: 553px;
+}
+
+
+
+.group-stage-bottom-left {
+    /* background: rgb(44,14,51);
+    background: linear-gradient(90deg, rgba(44,14,51,1) 0%, rgba(211,47,172,1) 52%, rgba(255,201,64,1) 100%); */
+    background: linear-gradient(146deg, #2c0e33 0%, #d32fac 48.27%, #ffc940 100%);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 26px;
+    width: 553px;
+    grid-area: 4
+
+}
+/* background: linear-gradient(to right, green 0%, green 80%, red 80%, red 100%); */
+.group-stage-bottom-right {
+    background-color: #B5E600;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 26px;
+    width: 553px;
+    grid-area: 4/3;
+}
+
+.group-stage-info-boxes {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: 200px 195px 41px 30px repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.group-a{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 28px;
+    grid-area: 1/1;
+}
+
+.group-b{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 28px;
+    grid-area: 1/1;
+}
+
+.group-win{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: uppercase;
+    grid-area: 1/3;
+}
+
+.group-lose{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: uppercase;
+    grid-area: 1/4;
+}
+.group-left{
+    color: #000;}
+
+.group-right{
+    color: #fff;
+}
+
+
+.group-stage-team-boxes {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: 55px 74px 155px repeat(1, 1fr) 41px 30px 87px;
+    justify-items: center;
+    align-content: flex-start;
+    margin-bottom: 37px;
+}
+
+.group-win-score{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: uppercase;
+    grid-area: 1/5;
+    align-self: center;
+}
+
+.group-lose-score{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: uppercase;
+    grid-area: 1/6;
+    align-self: center;
+}   
+
+.group-number {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 28px;
+    text-transform: uppercase;
+    align-self: center;
+
+}
+.group-name {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 21px;
+    align-self: center;
+    margin-left: 42px;
+}
+.nameless-hero-left {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 21px;
+    color: #bababa;
+}
+.nameless-hero-right {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 21px;
+    color: #2b2b2b;
+}
+
+.group-stage-team-img {
+    width: 73px;
+    height: 73px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.left-w-l-line {
+    width: 1px;
+    height: 120px;
+    background: #d9d9d9;
+    position: absolute;
+    margin-left: 320px;
+    margin-top: -58px;
+}
+.right-w-l-line {
+    width: 1px;
+    height: 120px;
+    background: #222;
+    position: absolute;
+    margin-left: 320px;
+    margin-top: -58px;
+}
+
+.saturate {
+    filter: saturate(0%);
+    -webkit-filter: saturate(0%);
+    -moz-filter: saturate(0%);
+}
+
+
+
+.playoff {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 77px) repeat(1, 1fr);
+    width: 1166px;
+    height: 614px;
+    margin-bottom: 150px;
+}
+
+.playoff-title{
+    width: 77px;
+    height: 594px;
+    background-image: url('../../assets/fame/s1/playoff-title.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.margtop150 {
+    margin-top: 150px;
+}
+.margtop125 {
+    margin-top: 125px;
+}
+.margtop137 {
+    margin-top: 137px;
+}
+.margtop100 {
+    margin-top: 100px;
+}
+.margbottom300 {
+    margin-bottom: 300px;
+}
+.margbottom150 {
+    margin-bottom: 150px;
+}
+.margbottom125 {
+    margin-bottom: 125px;
+}
+.margbottom100 {
+    margin-bottom: 100px;
+}
+.margbottom137 {
+    margin-bottom: 137px;
+}
+
+.champ-picks { 
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    height: 439px;
+    width: 1167px;
+}
+
+.champions-lol {
+    width: 1167px;
+    height: 439px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.champions-lol-title {
+    width: 1167px;
+    height: 87px;
+  
+}
+
+.champions-lol-title-text {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 35px;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #000;
+}
+.champions-lol-images {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 50px; 
+    row-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    width: 1167px;
+    height: 350px;
+}
+.champions-lol-img {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px
+}
+.champions-lol-wukong {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s1/champions/wukong/вуконг.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.champions-lol-malphit {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s1/champions/malphit/мальфит.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.champions-lol-vi {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s1/champions/vi/вай.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.champions-lol-amumu {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s1/champions/amumu/амуму.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.champions-lol-seraphine {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s1/champions/seraphine/серафина.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.champions-lol-olaf {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s1/champions/olaf/олаф.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.champions-lol-maokai {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s1/champions/maokai/маокай.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.champions-lol-irelia {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s1/champions/irelia/ирелия.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.champions-lol-sylas {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s1/champions/sylas/сайлас.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.champions-lol-yasuo {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s1/champions/yasuo/ясуо.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.champions-lol-darius-face {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s1/champions/darius/дариус2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.champions-lol-ash-face {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s1/champions/ash/эш2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.champions-lol-irelia-face {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s1/champions/irelia/ирелия2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+.played-winrate {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    height: 24px;
+    width: 188px;
+    justify-items: start;
+}
+.played-winrate-text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    text-align: right;
+    color: #717171;
+}
+
+.champions-lol-img-name {display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    height: 24px;
+    width: 188px;
+}
+.champions-lol-img-name-text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 21px;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.stats {
+    width: 1167px;
+    height: 464px;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.stats-line {
+    display: block;
+    width: 1px;
+    height: 346px;
+    background: #1c1c1c;
+    position: relative;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 28px;
+    margin-right: 82px;
+}
+.most-top-line {
+    display: block;
+    width: 1px;
+    height: 464px;
+    background: #1c1c1c;
+    position: relative;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 28px;
+}
+.stats-by-champ {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    width: 733px;
+    height: 464px;
+}
+
+.stats-by-champ-list {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr) repeat(1, 25px);
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    width: 189px;
+    height: 463px;
+    margin-inline: 28px;
+}
+
+.stats-list-most {
+    margin-top: 35px;
+    height: 48px;
+    width: 189px;
+}
+.stats-list-name {
+    margin-top: 28px;
+    height: 48px;
+    width: 189px;
+}
+.stats-list-stat {
+    margin-top: 20px;
+    height: 48px;
+    width: 189px;
+}
+.most-text {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 21px;
+    letter-spacing: -0.04em;
+    color: #fff;
+    justify-content: flex-start;
+
+}
+
+.stats-name-text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    color: #979797;
+    justify-content: flex-start;
+
+}
+.list-stat-text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    color: #979797;
+    justify-content: flex-start;
+
+}
+
+.stats-by-team {
+    display: grid;
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 22px;
+    justify-content: center;
+    align-items: center;
+    width: 435px;
+    height: 464px;
+}
+
+.stats-by-team-title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 35px;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #fff;
+    justify-self:center;
+    align-self:flex-start;
+    padding-right: 80px;
+}
+
+.stats-by-team-info-team-teamless {
+    height: 60px;
+    background-image: url('../../assets/fame/s1/teams/Teamless/Аферисты\ Тимлесса\ -\ лого\ 3.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.stats-by-team-info-team-diamond {
+    height: 60px;
+    background-image: url('../../assets/fame/s1/teams/diamond/вайфочки\ даймонда\ 3.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.stats-by-team-info-team-keysie {
+    height: 60px;                    
+    background-image: url('../../assets/fame/s1/teams/Keysie/Големы\ Кейси\ -\ лого\ 3.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.stats-by-team-info-team-gena {
+    height: 60px;
+    background-image: url('../../assets/fame/s1/teams/GeneraL_HS_/Аккаунты\ Генерала\ -\ лого\ 3.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.stats-by-team-info-team-flash {
+    height: 60px;
+    background-image: url('../../assets/fame/s1/teams/Flashynthen1ght/Кисоньки\ Флеша\ -\ лого\ 2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.stats-by-team-info-team-teynor {
+    height: 60px;
+    background-image: url('../../assets/fame/s1/teams/Teynor/Картавычи\ Тейнора\ -\ лого\ 2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.stats-by-team-info-team-dimill {
+    height: 60px;
+    background-image: url('../../assets/fame/s1/teams/Dimill/Волосы\ Димилла-\ лого\ 3.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.stats-by-team-info-team-Smurf_tv {
+    height: 60px;
+    background-image: url('../../assets/fame/s1/teams/Smurf_tv/дубины\ смурфа\ -\ лого\ 2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.stats-by-team-info {
+    height: 60px;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 54px) repeat(1, 1fr) repeat(1, 100px);
+    justify-content: center;
+    align-items: center;
+}
+
+.line-top {
+    height: 60px;
+    background-image: url('../../assets/fame/s1/lanes/top.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.line-jng {
+    height: 60px;
+    background-image: url('../../assets/fame/s1/lanes/jng.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.line-mid {
+    height: 60px;
+    background-image: url('../../assets/fame/s1/lanes/mid.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.line-adc {
+    height: 60px;
+    background-image: url('../../assets/fame/s1/lanes/adc.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.line-sup {
+    height: 60px;
+    background-image: url('../../assets/fame/s1/lanes/sup.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.stats-by-team-info-name {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    color: #757575;
+    justify-self: left;
+}
+
+.stats-by-team-info-kda {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+}
+
+.stats-icon-keysie {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    justify-self: center;
+    align-self: center;
+    z-index: 2;
+    background-image: url('../../assets/fame/s1/teams/Keysie/Големы\ Кейси\ -\ лого\ 4.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-self: start;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.stats-icon-diamond {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    justify-self: center;
+    align-self: center;
+    z-index: 2;
+    background-image: url('../../assets/fame/s1/teams/diamond/вайфочки\ даймонда\ 3.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-self: start;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.stats-icon-gena {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    justify-self: center;
+    align-self: center;
+    z-index: 2;
+    background-image: url('../../assets/fame/s1/teams/GeneraL_HS_/Аккаунты\ Генерала\ -\ лого\ 3.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-self: start;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.stats-icon-teamless {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    justify-self: center;
+    align-self: center;
+    z-index: 2;
+    background-image: url('../../assets/fame/s1/teams/Teamless/Аферисты\ Тимлесса\ -\ лого\ 3.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-self: start;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.stats-icon-flash {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    justify-self: center;
+    align-self: center;
+    z-index: 2;
+    background-image: url('../../assets/fame/s1/teams/Flashynthen1ght/Кисоньки\ Флеша\ -\ лого\ 2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-self: start;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+
+.stats-icon-teynor {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    justify-self: center;
+    align-self: center;
+    z-index: 2;
+    background-image: url('../../assets/fame/s1/teams/Teynor/Картавычи\ Тейнора\ -\ лого\ 4.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-self: start;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.stats-icon-dimill {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    justify-self: center;
+    align-self: center;
+    z-index: 2;
+    background-image: url('../../assets/fame/s1/teams/Dimill/Волосы\ Димилла-\ лого\ 3.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-self: start;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.stats-icon-smurf {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    justify-self: center;
+    align-self: center;
+    z-index: 2;
+    background-image: url('../../assets/fame/s1/teams/Smurf_tv/Дубины\ Смурфа\ -\ лого\ 4.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-self: start;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+
+.playoff{
+    width: 1166px;
+    height: 613px;
+    /* background-color: #fff; */
+    margin-top: 100px;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 77px) repeat(1, 1fr);
+}
+
+
+
+
+
+
+
+.most-top-template {
+    width: 1167px;
+    height: 832px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.most-top-template-inner {
+    width: 430px;
+    height: 360px;
+    display: grid;
+    grid-template-rows: 115px repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 55px;
+}
+
+.top-template-1{
+    grid-area: 1/1;
+    justify-self: start;
+    align-self: flex-start;
+}
+
+.top-template-2{
+    grid-area: 1/2;
+    justify-self: end;
+    align-self: flex-start;
+}
+
+.top-template-3{
+    grid-area: 2/1;
+    justify-self: start;
+    align-self: flex-end;
+}
+
+.top-template-4{
+    grid-area: 2/2;
+    justify-self: end;
+    align-self: flex-end;
+}
+
+
+
+.most-top-template-inner-title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 35px;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #fff;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.most-top-template-top {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 10px;
+}
+
+.most-top-template-top-hero {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: 78px 70px 150px 1fr;
+}
+
+
+
+.gena-img {
+    height: 100%;
+    width: 100%;
+    background-image: url('../../assets/fame/s1/teams/GeneraL_HS_/Аккаунты\ Генерала.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.keysie-img {
+    height: 100%;
+    width: 100%;
+    background-image: url('../../assets/fame/s1/teams/Keysie/Големы\ Кейси.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.teamless-img {
+    height: 100%;
+    width: 100%;
+    background-image: url('../../assets/fame/s1/teams/Teamless/тимлес.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.dimill-img {
+    height: 100%;
+    width: 100%;
+    background-image: url('../../assets/fame/s1/teams/Dimill/димилл.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.smurf-img {
+    height: 100%;
+    width: 100%;
+    background-image: url('../../assets/fame/s1/teams/Smurf_tv/смурф.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.most-top-role {
+    height: 30px;
+    width: 30px;
+    align-self: center;
+}
+
+
+.most-top-name {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    color: #757575;
+    align-self: center;
+    justify-self: start;
+}
+
+.most-top-text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    align-self: center;
+    justify-self: start;
+}
+
+
+
+
+.playoff-img {
+    background-image: url('../../assets/fame/s1/playoff/playoff.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+
+
+
+

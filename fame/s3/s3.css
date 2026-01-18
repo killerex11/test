@@ -1,0 +1,2180 @@
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "Archivo", sans-serif;
+    --third-family: "Graphik LC TT", sans-serif;
+  }
+@font-face {
+    font-family: Montserrat;
+    src: url("../../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("../../assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf");
+}
+@font-face {
+    font-family: Anton;
+    src: url("../../assets/fonts/Anton/Anton-Regular.ttf");
+}
+
+@font-face {
+    font-family: Antonio;
+    src: url("../../assets/fonts/Antonio/Antonio-VariableFont_wght.ttf");
+}
+html {
+    scroll-behavior: smooth ;
+  }
+
+.fame-banner{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 70px;
+    justify-items: center;
+    align-items: center;
+    
+    background: #0A0A0A;
+    border-radius: 37px;
+    width: 100%;
+    height: 183px;
+    
+    /* margin-top: 55px; */
+    margin-bottom: 83px;
+    
+    text-transform: uppercase;
+    
+    padding: 0 38px 0 43px;
+    box-sizing: border-box;
+}
+
+.fame-banner-title{
+    gap: 5px;
+    grid-area: 1/3;
+}
+
+.fame-banner-title-title{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 49px;
+    line-height: 94%;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.fame-banner-title-desc{
+    margin-left: 93px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 96%;
+    text-transform: uppercase;
+    text-align: right;
+    color: #d5b372;
+    text-wrap: nowrap;
+}
+
+
+.ksi-fame-banner-img{
+    height: 183px;
+    width: 183px;
+    background-image: url('../..//assets/fame/s3/logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    align-self: center;
+    justify-self: start;
+    
+}
+
+.champions {
+    width: 955px;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: end;
+    align-items: end;
+    align-self: center;
+}
+
+.champ {
+    width: 319px;
+    justify-items: center;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.champ-place {
+    width: 150px;
+    height: 150px;
+    justify-self: center;
+    align-self: start;
+
+}
+
+.champ-place-first {
+    background-image: url('../../assets/fame/s2/первое.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    align-self: center;
+}
+.champ-place-second {
+    background-image: url('../../assets/fame/s2/второе.svg');
+    background-repeat: no-repeat;
+    align-self: center;
+    background-position: center;
+
+}
+.champ-place-third {
+    background-image: url('../../assets/fame/s2/третье.svg ');
+    background-repeat: no-repeat;
+    align-self: center;
+    background-position: center;
+}
+
+.champ-img {
+    width: 220px;
+    height: 220px;
+    justify-items: center;
+    align-items: center;
+    background-position: center;
+}
+
+
+
+.champ-title {
+    justify-self: center;
+    align-self: center;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 129%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+
+.champ-reward {
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 63%;
+    text-align: center;
+    color: #c2c2c2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+.champ-heroes {
+    
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    width: 319px;
+    justify-items: center;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 129%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #818181;
+    row-gap: 11px;
+}
+
+.goldy {
+    color: #d9c586; 
+}
+.first{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 110%;
+    text-align: center;
+    color: #d9c586;
+    }
+
+
+.heroes {
+    margin-top: 100px;
+    height: 553px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    column-gap: 55px;
+    align-self: center;
+}
+
+
+.hero-card {
+    border-radius: 19px;
+    width: 190px;
+    height: 312px;
+    background: #0a0a0a;
+    display: grid;
+    grid-template-rows: repeat(1, 85px) repeat(1, 134px) repeat(1, 93px) repeat(1, 87px) repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    grid-area: 1 ;
+}
+
+.hero-card-place {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 85%;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-card-img {
+    height: 182px;
+    width: 134px;
+    background-repeat: no-repeat;
+    align-self: center;
+    justify-self: center;
+    background-position: center;
+}
+
+.hero-card-name {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 129%;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-card-reward {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 63%;
+    text-align: center;
+    color: #c2c2c2;
+}
+
+.hero-card-heroes {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    height: 85px;
+    justify-items: center;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 147%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #818181;
+    row-gap: 11px;
+}
+
+.group-stage {
+    margin-top: 100px;
+    width: 1167px;
+    display: grid;
+    grid-template-rows: repeat(2, 53px) repeat(1, minmax(78px, 1fr)) 26px;
+    grid-template-columns: 553px 61px 553px;
+    justify-items: center;
+}
+
+.group-stage-title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 35px;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #fff;
+    justify-self: start;
+}
+
+
+.group-stage-left {
+    width: 553px;
+    padding: 10px 35px 10px 35px;
+    box-sizing: border-box;
+    grid-area: 3/1;
+    background-color: #fff;
+    display: grid;
+    grid-template-rows: repeat(1, 78px) ;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.group-stage-right {
+    width: 553px;
+    padding: 10px 35px 10px 35px;
+    box-sizing: border-box;
+    grid-area: 3/3;
+    background-color: #121212;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+
+
+.group-stage-info {
+    width: 100%;
+}
+
+
+
+.group-stage-bottom-left {
+    background: linear-gradient(90deg, #B129F3 0%, #160240 49%, #040404 100%);
+    height: 26px;
+    width: 553px;
+    grid-area: 4
+
+}
+/* background: linear-gradient(to right, green 0%, green 80%, red 80%, red 100%); */
+.group-stage-bottom-right {
+    background-color: #B5E600;
+    height: 26px;
+    width: 553px;
+    grid-area: 4/3;
+}
+
+.group-stage-info-boxes {
+    font-size: 42px;
+}
+
+.group-a{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 28px;
+    grid-area: 1/1;
+}
+
+.group-b{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 28px;
+    grid-area: 1/1;
+}
+
+.group-win{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: uppercase;
+    grid-area: 1/3;
+}
+
+.group-lose{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: uppercase;
+    grid-area: 1/4;
+}
+.group-left{
+    color: #000;}
+
+.group-right{
+    color: #fff;
+}
+
+
+.group-stage-team-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-content: flex-start;
+    margin-bottom: 37px;
+}
+
+.group-win-score{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: uppercase;
+    grid-area: 1/5;
+    align-self: center;
+    margin-left: 49px;
+}
+
+.group-lose-score{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: uppercase;
+    grid-area: 1/6;
+    align-self: center;
+}   
+
+.group-number {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 28px;
+    text-transform: uppercase;
+    align-self: center;
+
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    width: 19px;
+    height: 34px;
+}
+.group-name {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 21px;
+    align-self: center;
+    margin-left: 51px;
+    width: 155px;
+}
+.nameless-hero-left {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 21px;
+    color: #bababa;
+}
+.nameless-hero-right {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 21px;
+    color: #2b2b2b;
+}
+
+.group-stage-team-img {
+    width: 73px;
+    height: 73px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 38px;
+}
+
+.left-w-l-line {
+    width: 1px;
+    height: 120px;
+    background: #d9d9d9;
+    position: absolute;
+    margin-left: 320px;
+    margin-top: -58px;
+}
+.right-w-l-line {
+    width: 1px;
+    height: 120px;
+    background: #222;
+    position: absolute;
+    margin-left: 320px;
+    margin-top: -58px;
+}
+
+.saturate {
+    filter: saturate(0%);
+    -webkit-filter: saturate(0%);
+    -moz-filter: saturate(0%);
+}
+
+
+
+.playoff {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 77px) repeat(1, 1fr);
+    width: 1166px;
+    height: 614px;
+    margin-bottom: 150px;
+}
+
+.playoff-title{
+    width: 77px;
+    height: 594px;
+    background-image: url('../../assets/fame/s1/playoff-title.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.margtop200 {
+    margin-top: 200px;
+}
+.margtop150 {
+    margin-top: 150px;
+}
+.margtop125 {
+    margin-top: 125px;
+}
+.margtop137 {
+    margin-top: 137px;
+}
+.margtop100 {
+    margin-top: 100px;
+}
+.margbottom300 {
+    margin-bottom: 300px;
+}
+.margbottom150 {
+    margin-bottom: 150px;
+}
+.margbottom125 {
+    margin-bottom: 125px;
+}
+.margbottom100 {
+    margin-bottom: 100px;
+}
+.margbottom137 {
+    margin-bottom: 137px;
+}
+
+.champ-picks { 
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    height: 439px;
+    width: 1167px;
+}
+
+.champions-lol {
+    width: 1167px;
+    height: 439px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.champions-lol-title {
+    width: 1167px;
+    height: 87px;
+  
+}
+
+.champions-lol-title-text {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 35px;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #000;
+}
+.champions-lol-images {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 57px;
+    row-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    width: 1167px;
+    height: 350px;
+}
+.champions-lol-img {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px
+}
+.champions-lol-wukong {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s2/champions/wukong/wukong.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.champions-lol-malphit {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s2/champions/malphit/malphit.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.champions-lol-vi {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s2/champions/vi/vi.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.champions-lol-amumu {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s2/champions/amumu/amumu.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.champions-lol-seraphine {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s2/champions/seraphine/серафина.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.champions-lol-olaf {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s2/champions/olaf/olaf.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.champions-lol-maokai {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s2/champions/maokai/mao.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.champions-lol-irelia {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s2/champions/irelia/irelia.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.champions-lol-sylas {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s2/champions/sylas/silos.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.champions-lol-yasuo {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s2/champions/yasuo/drunk.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.champions-lol-darius-face {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s2/champions/darius/darius\ face.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.champions-lol-ash-face {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s2/champions/ash/ash\ face.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.champions-lol-irelia-face {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s2/champions/irelia/irelia\ face.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
+.champions-lol-rakan {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s2/champions/rakan/рейкан.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.champions-lol-rakan-face {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s2/champions/rakan/рейкан2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.champions-lol-kaisa {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s2/champions/kaisa/кайса.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.champions-lol-nautilus {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s2/champions/nautilus/наутилус.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.champions-lol-jarvan {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s2/champions/jarvan/джарван.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.champions-lol-xayah {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s2/champions/xayah/шая.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.champions-lol-gragas {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s2/champions/gragas/грагас.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.champions-lol-sylas2 {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s2/champions/sylas/сайлас.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.champions-lol-seraphine-face {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s2/champions/seraphine/серафина2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.champions-lol-draven {
+    width: 189px;
+    height: 262px;
+    border-radius: 20px;
+    background-image: url('../../assets/fame/s2/champions/draven/дрейвен.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.played-winrate {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    height: 24px;
+    width: 188px;
+    justify-items: start;
+}
+.played-winrate-text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    text-align: right;
+    color: #717171;
+}
+
+.champions-lol-img-name {display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    height: 24px;
+    width: 188px;
+}
+.champions-lol-img-name-text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 21px;
+    color: #000;
+    text-transform: capitalize;
+}
+
+
+.line-top {
+    background-image: url('../../assets/fame/s3/lanes/top.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.line-jng {
+    background-image: url('../../assets/fame/s3/lanes/jng.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.line-mid {
+    background-image: url('../../assets/fame/s3/lanes/mid.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.line-adc {
+    background-image: url('../../assets/fame/s3/lanes/adc.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;  
+}
+
+.line-sup {
+    background-image: url('../../assets/fame/s3/lanes/sup.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;  
+}
+
+.line-top-dark {
+    background-image: url('../../assets/fame/s3/lanes/top-dark.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;  
+}
+
+.line-jng-dark {
+    background-image: url('../../assets/fame/s3/lanes/jng-dark.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;  
+}
+
+.line-mid-dark {
+    background-image: url('../../assets/fame/s3/lanes/mid-dark.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;  
+}
+
+.line-adc-dark {
+    background-image: url('../../assets/fame/s3/lanes/adc-dark.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;  
+}
+
+.line-sup-dark {
+    background-image: url('../../assets/fame/s3/lanes/sup-dark.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;  
+}
+
+
+.diamond-img {
+    background-image: url('../../assets/fame/s3/teams/diamond/даймонд.svg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;  
+}
+
+.starky-img {
+    background-image: url('../../assets/fame/s3/teams/Starky/Клоуны\ Старки.svg');  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;  
+}
+
+.flash-img {
+    background-image: url('../../assets/fame/s3/teams/flashinthenight/Кисоньки\ Флеша.svg');  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;  
+}
+.dimill-img {
+    background-image: url('../../assets/fame/s3/teams/Dimill/димилл.svg');  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;  
+}
+.unholy-img{
+    background-image: url('../../assets/fame/s3/teams/Unho1y/анхоли.svg');  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.smurf-img {
+    background-image: url('../../assets/fame/s3/teams/Smurf_tv/Кабанчики\ смурфа.svg');  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.teamless-img {
+    background-image: url('../../assets/fame/s3/teams/Teamless/тимлесс.svg');  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.zak-img {
+    background-image: url('../../assets/fame/s3/teams/Zak/Гайдеры\ Зака.svg');  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.lina-img {
+    background-image: url('../../assets/fame/s3/teams/Linaneyon/Персики\ Лины.svg');  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.gena-img {
+    background-image: url('../../assets/fame/s3/teams/GeneraL_HS_/гена.svg');  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.playoff{
+    width: 1166px;
+    height: 613px;
+    /* background-color: #fff; */
+    margin-top: 100px;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 77px) repeat(1, 1fr);
+}
+.playoff-title {
+    height: 593px;
+    width: 77px;
+    grid-area: 1/1;
+    background-image: url('../../assets/fame/s2/playoff/Безымянный-1\ 1.svg');
+    align-self: center;
+}
+.playoff-date-line {
+    border: 1px solid #fff;
+    width: 0px;
+    height: 254px;
+    align-self: center;
+    justify-self: center;
+    align-content: center;
+
+}
+.playoff-date-line p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 142%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #fff;
+    transform: rotate(270deg);
+    margin-left: -25px;
+}
+.playoff-dates {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    height: 612px;
+    width: 77px;
+    align-self: center;
+    justify-self: center;
+}
+
+
+
+.playoff-teams{
+    height: 130px;
+    width: 157px;
+    display: grid;
+    grid-template-rows: 14px repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: end;
+    align-items: center;
+}
+
+.playoff-team  {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.playoff-team-backplate{
+    border-radius: 11px;
+    width: 157px;
+    height: 45px;
+    background: #070707;
+    align-content: center;
+    margin-bottom: 16px;
+
+}
+
+.margbottom42{
+    margin-bottom: 42px;
+}
+
+.playoff-main{
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    width: 1012px;
+    height: 612px;
+}
+
+.playoff-team-img{
+    align-self: center;
+    justify-self: center;
+    width: 54px;
+    height: 54px;
+}
+
+.playoff-team-title{
+    align-self: center;
+    justify-self: center;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 127%;
+    color: #fff;        
+}
+
+.playoff-bo3{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 142%;
+    letter-spacing: 0.01em;
+    text-align: right;
+    color: #fff;
+    justify-self: end;
+    text-transform: uppercase;
+    text-wrap: nowrap;  
+}
+.playoff-bo3-time{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
+    height: 14px;
+    gap: 13px;
+}
+
+
+.final-date{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    height: 47px;
+    width: 157px;
+    align-self: center;
+    justify-self: end;
+    gap: 19px;
+    margin-top: -50px;
+    text-align: center;
+    color: #fff;
+}
+
+
+.playoff-final-date{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 106%;
+    letter-spacing: 0.01em;
+    color: #fff;
+}
+.playoff-final-final{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 94%;
+    letter-spacing: 0.01em;
+    color: #c0f500;
+}
+.playoff-final-best{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 131%;
+    letter-spacing: 0.01em;
+    color: #b5e600;
+}
+.playoff-final-time{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 142%;
+    letter-spacing: 0.01em;
+    text-align: right;
+    color: #b5e600;
+}
+
+
+.lines{
+    position: absolute;
+    height: 698px;
+    width: 1020px;
+    /* background-repeat: no-repeat; */
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: 49px 167px 105px 167px 105px 167px 90px 167px 1fr;
+}
+.looserq1{
+    background-image: url('../../assets/fame/s2/playoff/loserq1.svg');
+    background-repeat: no-repeat;
+}
+.looserq2{
+    background-image: url('../../assets/fame/s2/playoff/loserq2.svg');
+    background-repeat: no-repeat;
+}
+.looserq3{
+    background-image: url('../../assets/fame/s2/playoff/loserq3.svg');
+    background-repeat: no-repeat;
+}
+.winnerq1{
+    background-image: url('../../assets/fame/s2/playoff/winnerq1.svg');
+    background-repeat: no-repeat;
+}
+.winnerq2{
+    background-image: url('../../assets/fame/s2/playoff/winnerq1.svg');
+    background-repeat: no-repeat;
+}
+.winnerq3{
+    background-image: url('../../assets/fame/s2/playoff/winnerq2.svg');
+    background-repeat: no-repeat;
+}
+.winnerq3sub{
+    background-image: url('../../assets/fame/s2/playoff/winnerq3sub.svg');
+    background-repeat: no-repeat;
+}
+.winnerq3sub2{
+    background-image: url('../../assets/fame/s2/playoff/winnerq2sub.svg');
+    background-repeat: no-repeat;
+}
+.winnerq4{
+    background-image: url('../../assets/fame/s2/playoff/winnerq3.svg');
+    background-repeat: no-repeat;
+}
+.winnerq5{
+    background-image: url('../../assets/fame/s2/playoff/winnerq4.svg');
+    background-repeat: no-repeat;
+}
+
+
+.playoff-team-group {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: -70px;
+}
+
+
+.playoff-team-score {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 93%;
+    color: #b5e600;
+    margin-right: -70px;
+}
+
+
+
+.vk-play-live-banner{
+    height: 19px;
+    width: 99px;
+    background-image: url('../../assets/fame/s2/playoff/VK\ Play\ Live_black\ 3.svg');
+    background-repeat: no-repeat;
+    background-size: 99px;
+    justify-self: end;
+}
+
+.playoff-middle-line{
+    height: 1px;
+    width: 100px;
+    background-image: url('../../assets/fame/s2/playoff/line.svg' );
+    background-repeat: no-repeat;
+    background-size: auto;
+    justify-self: end;
+}
+
+.kda-top-kda{
+    color: #FFFFFF;
+}
+
+
+
+
+
+.kda-rating-cards-streamer-img {
+    height: 198px;
+    width: 215px;
+
+    margin-top: 11px;
+}
+
+
+.kda-rating {
+    height: 498px;
+    width: 1172px;
+    display: grid;
+    align-self: center;
+    justify-self: center;
+    gap: 5px;
+}
+
+.kda-rating-in {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 56px minmax(340px, 1fr) 46px;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 18px;
+}
+.kda-rating-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.kda-top-kda {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 18px;
+}
+
+
+.kda-rating-cards-streamers{
+    width: 100%;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.streamer-img-sankaizer{
+    background-image: url('../../assets/fame/s3/streamers/Sankaizer/Sankaizer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.streamer-img-diamondprox{
+    background-image: url('../../assets/fame/s3/streamers/Diamondprox/Даймонд.png');
+    background-repeat: no-repeat;
+    background-size: cover;f
+}
+.streamer-img-poweroflawyer{
+    background-image: url('../../assets/fame/s3/streamers/PowerOfLawyer/PowerOfLawyer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.streamer-img-marybaby{
+    background-image: url('../../assets/fame/s3/streamers/Marybaby/MaryBaby.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.streamer-img-starky{
+    background-image: url('../../assets/fame/s3/streamers/Starky/Старки.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kda-rating-cards-streamer-info{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: 60px 1fr 60px;
+    width: 217px;
+}
+
+
+.kda-rating-cards-streamer-team{
+    width: 60px;
+    height: 60px;
+    grid-area: 1/1;
+}
+
+.kda-rating-cards-streamer-lane{
+    width: 60px;
+    height: 60px;
+    grid-area: 1/3;
+}
+
+.kda-rating-cards-streamer-name{font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 56%;
+    align-self: center;
+    justify-self: center;
+    color: #000;
+    height: 27px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+    margin-bottom: 18px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rating-template {
+    height: 356px;
+    width: 1160px;
+    margin-top: 81px;
+}
+
+.rating-template-in {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: 775px repeat(1, 1fr);
+    width: 100%;
+    height: 100%;
+}
+
+.rating-dragons {
+    display: grid;
+    grid-template-rows: 57px repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 44px;
+}
+
+.rating-dragons-title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 120%;
+    color: #fff;
+    align-self: center;
+    justify-self: flex-start;
+}
+
+.rating-dragons-compare {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(6, 1fr) 158px;
+    justify-items: flex-start;
+}
+
+.rating-compare-dragons-in {
+    display: grid;
+    grid-template-rows: 16px 108px 55px;
+    grid-template-columns: repeat(1, 1fr);
+    width: 62px;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.rating-dragons-compare-in-title {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.rating-dragons-compare-in-title p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    text-align: center;
+    color: #fff;
+}
+.rating-dragons-compare-in-column {
+    height: 100%;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.rating-dragons-compare-in-icon {
+    height: 100%;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.rating-dragons-compare-column-38to38 {
+    margin: auto;
+    height: 108px;
+    width: 30px;
+    background: linear-gradient(to top, #7314e7 100%, white 0%); 
+}
+
+.rating-dragons-compare-column-38to36 {
+    margin: auto;
+    height: 108px;
+    width: 30px;
+    background: linear-gradient(to top, #7314e7 94.7%, white 0%); 
+}
+
+.rating-dragons-compare-column-38to34 {
+    margin: auto;
+    height: 108px;
+    width: 30px;
+    background: linear-gradient(to top, #7314e7 89.47%, white 0%); 
+}
+
+.rating-dragons-compare-column-38to32 {
+    margin: auto;
+    height: 108px;
+    width: 30px;
+    background: linear-gradient(to top, #7314e7 84.21%, white 0%); 
+}
+
+.rating-dragons-compare-column-38to20 {
+    margin: auto;
+    height: 108px;
+    width: 30px;
+    background: linear-gradient(to top, #7314e7 52.63%, white 0%); 
+}
+
+
+
+.earth-dragon {
+    background-image: url('../../assets/fame/s3/dragons/earth-dragon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+
+.water-dragon {
+    background-image: url('../../assets/fame/s3/dragons/water-dragon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+.cloud-dragon {
+    background-image: url('../../assets/fame/s3/dragons/cloud-dragon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+.fire-dragon {
+    background-image: url('../../assets/fame/s3/dragons/fire-dragon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+.chemtech-dragon {
+    background-image: url('../../assets/fame/s3/dragons/chemtech-dragon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+.hextech-dragon {
+    background-image: url('../../assets/fame/s3/dragons/hextech-dragon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+}
+
+
+
+
+.rating-template-game {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 57px 64px 152px 38px 45px;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+
+.rating-template-game-title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 120%;
+    color: #fff;
+    justify-self: start;
+}
+
+.rating-template-game-teams {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+    align-items: center;
+}
+
+.rating-template-game-time {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 98%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #fff;
+}
+
+.rating-template-game-teams-img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.rating-template-game-teams-vs {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 41px;
+    line-height: 73%;
+    color: #fff;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+
+.rating-champions {
+    display: flex;
+    flex-direction: column;
+    row-gap: 33px;
+}
+
+.rating-champions-title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    color: #fff;
+    align-self: center;
+    justify-self: flex-start;
+}
+
+.rating-champions-compare {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 12px;
+}
+
+.rating-champions-compare-in-title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 112%;
+    text-align: center;
+    color: #fff;
+    align-self: center;
+    justify-self: flex-start;
+}
+
+
+.rating-champions-compare-in-column {
+    height: 100%;
+    width: 100%;
+    margin-top: 23px;
+}
+
+.rating-champions-compare-in-icon {
+    height: 66px;
+    width: 66px;
+    margin-top: 45px;
+}
+
+.rating-compare-champions-in {
+    display: flex;
+    flex-direction: column;
+    width: 62px;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.rating-champions-name {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 112%;
+    text-align: center;
+    color: #fff;
+    margin-top: 13px;
+    text-wrap: nowrap;
+    text-transform: capitalize;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.xayah-face {
+    background-image: url('../../assets/fame/s3/champions/xayah/Xayah-face.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.ashe-face {
+    background-image: url('../../assets/fame/s3/champions/ash/Ashe-face.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.kaisa-face {
+    background-image: url('../../assets/fame/s3/champions/kaisa/Kaisa-face.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.ziggs-face {
+    background-image: url('../../assets/fame/s3/champions/ziggs/Ziggs-face.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.braum-face {
+    background-image: url('../../assets/fame/s3/champions/braum/Braum-face.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.jax-face {
+    background-image: url('../../assets/fame/s3/champions/jax/Jax-face.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.nautilus-face {
+    background-image: url('../../assets/fame/s3/champions/nautilus/Nautilus-face.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.mao-face {
+    background-image: url('../../assets/fame/s3/champions/maokai/Maokai-face.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.olaf-face {
+    background-image: url('../../assets/fame/s3/champions/olaf/Olaf-face.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+.jarvan-face {
+    background-image: url('../../assets/fame/s3/champions/jarvan/Jarvan\ IV-face.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+.rakan-face {
+    background-image: url('../../assets/fame/s3/champions/rakan/Rakan-face.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.karthus-face {
+    background-image: url('../../assets/fame/s3/champions/karthus/Karthus-face.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.shen-face {
+    background-image: url('../../assets/fame/s3/champions/shen/Shen-face.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.kalista-face {
+    background-image: url('../../assets/fame/s3/champions/kalista/Kalista-face.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.oriana-face {
+    background-image: url('../../assets/fame/s3/champions/oriana/Orianna-face.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.kindred-face {
+    background-image: url('../../assets/fame/s3/champions/kindred/Kindred-face.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.draven-face {
+    background-image: url('../../assets/fame/s3/champions/draven/Draven-face.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+.rating-champions-compare-column-26to26 {
+    margin: auto;
+    height: 213px;
+    width: 30px;
+    background: linear-gradient(to top, #7314e7 100%, white 0%); 
+}
+.rating-champions-compare-column-26to20 {
+    margin: auto;
+    height: 213px;
+    width: 30px;
+    background: linear-gradient(to top, #7314e7 76.92%, white 0%); 
+}
+.rating-champions-compare-column-26to19 {
+    margin: auto;
+    height: 213px;
+    width: 30px;
+    background: linear-gradient(to top, #7314e7 73.07%, white 0%); 
+}
+.rating-champions-compare-column-26to16 {
+    margin: auto;
+    height: 213px;
+    width: 30px;
+    background: linear-gradient(to top, #7314e7 61.53%, white 0%); 
+}
+.rating-champions-compare-column-26to15 {
+    margin: auto;
+    height: 213px;
+    width: 30px;
+    background: linear-gradient(to top, #7314e7 57.69%, white 0%); 
+}
+.rating-champions-compare-column-26to14 {
+    margin: auto;
+    height: 213px;
+    width: 30px;
+    background: linear-gradient(to top, #7314e7 53.84%, white 0%); 
+}
+.rating-champions-compare-column-26to13 {
+    margin: auto;
+    height: 213px;
+    width: 30px;
+    background: linear-gradient(to top, #7314e7 50%, white 0%); 
+}
+.rating-champions-compare-column-26to12 {
+    margin: auto;
+    height: 213px;
+    width: 30px;
+    background: linear-gradient(to top, #7314e7 46.15%, white 0%); 
+}
+
+
+.rating-champions-compare-column-20to20 {
+    margin: auto;
+    height: 213px;
+    width: 30px;
+    background: linear-gradient(to top, #7314e7 100%, white 0%); 
+}
+.rating-champions-compare-column-20to18 {
+    margin: auto;
+    height: 213px;
+    width: 30px;
+    background: linear-gradient(to top, #7314e7 90%, white 0%); 
+}
+.rating-champions-compare-column-20to16 {
+    margin: auto;
+    height: 213px;
+    width: 30px;
+    background: linear-gradient(to top, #7314e7 80%, white 0%); 
+}
+.rating-champions-compare-column-20to15 {
+    margin: auto;
+    height: 213px;
+    width: 30px;
+    background: linear-gradient(to top, #7314e7 75%, white 0%); 
+}
+.rating-champions-compare-column-20to12 {
+    margin: auto;
+    height: 213px;
+    width: 30px;
+    background: linear-gradient(to top, #7314e7 60%, white 0%); 
+}
+.rating-champions-compare-column-20to11 {
+    margin: auto;
+    height: 213px;
+    width: 30px;
+    background: linear-gradient(to top, #7314e7 55%, white 0%); 
+}
+
+
+.playoff-img {
+    background-image: url('../../assets/fame/s3/playoff/playoff.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.players-rating {
+    height: 861px;
+    width: 1188px;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: 526px 100px 504px;
+}
+
+.players-rating-table-left {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 79px repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 10px;
+    grid-area: 1/1;
+}
+
+.players-rating-table-right {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 79px repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 10px;
+    grid-area: 1/3;
+}
+
+.players-rating-title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    color: #fff;
+    align-self: center;
+    justify-self: flex-start;
+}
+
+.players-rating-table-table {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    row-gap: 18px;
+}
+
+.players-rating-table-table-title-text {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: 69px 63px 110px repeat(3, 83px);
+    justify-items: start;
+    align-items: center;
+    column-gap: 9px;
+}
+
+.players-rating-table-table-title-text p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 211%;
+    text-align: center;
+    color: #fff;
+}
+
+.players-rating-table-table-player {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: 69px 63px 110px repeat(3, 83px);
+    justify-items: center;
+    align-items: center;
+    column-gap: 9px;
+}
+
+.players-rating-table-table-player-place {
+    height: 100%;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+}
+.players-rating-table-table-player-place p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 309%;
+    text-align: center;
+    color: #5a5a5b;
+}
+.players-rating-table-table-player-img {
+    height: 100%;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 309%;
+    text-align: center;
+    color: #5a5a5b;
+}
+
+.players-rating-table-table-player-name {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 107%;
+    text-align: start;
+    color: #fff;
+
+    width: 100%;
+}
+
+.players-rating-table-table-player-lane {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 453%;
+    text-align: center;
+    color: #fff;
+}
+
+.players-rating-table-table-player-kda {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 358%;
+    text-align: center;
+    color: #fff;
+    justify-self: end;
+
+}
+
+.table-player-place-1 {
+    width: 36px;
+    height: 36px;
+    background: linear-gradient(135deg, #faa73b 0%, #fdd68e 100%);
+    transform: rotate(-45deg);
+}
+.table-player-place-2 {
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(315deg, #cfd3dc 0%, #b5bbc4 100%);
+    transform: rotate(-45deg);
+}
+.table-player-place-3 {
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(315deg, #cebce6 0%, #967bbe 100%);
+    transform: rotate(-45deg);
+}
+
+.table-player-place-1-text {
+    transform: rotate(45deg) !important;
+    font-family: var(--font-family) !important;     
+    font-weight: 400 !important;
+    font-size: 22px !important;
+    line-height: 105% !important;
+    color: #000 !important;
+    margin-left: 5px !important;
+    margin-top: 4px !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table-player-place-2-text {
+    transform: rotate(45deg);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 105%;
+    color: #000;
+}
+.table-player-place-3-text {
+    transform: rotate(45deg);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 105%;
+    color: #000;
+}
+
+
+.diamondpox-face-img {
+    background-image: url('../../assets/fame/s3/streamers/Diamondprox/Diamondprox-face.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.sevkalol-face-img {
+    background-image: url('../../assets/fame/s3/streamers/sevkalol/Sevkalol-face.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.marybaby-face-img {
+    background-image: url('../../assets/fame/s3/streamers/Marybaby/Marybaby-face.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.starky-face-img {
+    background-image: url('../../assets/fame/s3/streamers/Starky/Starky-face.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.poweroflawyer-face-img {
+    background-image: url('../../assets/fame/s3/streamers/PowerOfLawyer/PowerOfLawyer-face.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.skorpak-face-img {
+    background-image: url('../../assets/fame/s3/streamers/Skorpak/Skorpak-face.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.sankaizer-face-img {
+    background-image: url('../../assets/fame/s3/streamers/Sankaizer/Sankaizer-face.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.bestnorik-face-img {
+    background-image: url('../../assets/fame/s3/streamers/BestNorik/bestnorik-face.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.no-image {
+    background-image: url('../../assets/fame/s3/streamers/no-image.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.smurf-face-img {
+    background-image: url('../../assets/fame/s3/streamers/Smurf/Smurf-face.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.oktomar-face-img {
+    background-image: url('../../assets/fame/s3/streamers/OkTomar/Oktomar-face.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.popcorn-face-img {
+    background-image: url('../../assets/fame/s3/streamers/Popcorn/zPoPCorNz-face.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.anechek-face-img {
+    background-image: url('../../assets/fame/s3/streamers/Anechek/Anechek-face.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.players-rating-line {
+    position: absolute;
+    width: 482px;
+    height: 1px;
+    background: #d3d4da;
+    margin-bottom: -80px;
+    margin-left: 60px;
+}

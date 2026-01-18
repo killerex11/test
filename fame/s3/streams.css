@@ -1,0 +1,241 @@
+.streams{
+    display: flex;
+    flex-direction: column;
+    margin-top: 42px;
+}
+
+.streams-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.streams-pic{
+    display: flex;
+    flex-direction: row;
+}
+
+.streams-head-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 37px;
+    color: #FFFFFF;
+}
+
+.streams-head-title-title{
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 650;
+}
+
+.streams-head-title-desc{
+    font-size: 15px;
+}
+
+.streams-head-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 125px;
+    height: 37px;
+    border-radius: 10px;
+    background-color: #B5E600;
+}
+
+.streams-pic{
+    margin-top: 29px;
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+}
+
+.streams-pic-block{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    align-items: flex-start;
+}
+
+.streams-pic-block-img{
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 271px;
+    height: 152px;
+}
+
+.streams-pic-block-desc{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.streams-pic-block-desc p{
+    justify-content:left;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 147%;
+    color: #fff;
+}
+
+.stat-banner{
+    margin-top: 88px;
+    width: 100%;
+    height: 179px;
+    background: url('../assets/main/zed.png') no-repeat 192px, linear-gradient(90deg, #2C0E33, #D32FAC, #FFC940);
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 54px 0 67px;
+}
+
+.stat-banner-title{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 43px;
+    color: #FFFFFF;
+}
+
+.stat-banner-link{
+    width: 173px;
+    height: 48px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat-banner-link:hover{
+    background: black;
+    color: white;
+}
+
+.teams{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    flex-wrap: wrap;
+
+    color: #FFFFFF;
+}
+
+.teams-title{
+    text-transform: uppercase;
+    width: 337px;
+    margin-right: 108px;
+    gap: 24px;
+}
+
+.teams-title-en{
+    height: 109px;
+    width: 307px;
+
+    background: url('../assets/team/teams-title.svg');
+}
+
+.teams-title-ru{
+    font-size: 35px;
+    color: #535353;
+    font-weight: 650;
+}
+
+.teams-card{
+    background: #0F0F0F;
+    width: 205px;
+    height: 260px;
+    padding: 38px 38px 18px 38px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.teams-card:hover{
+    background: linear-gradient(135deg, #2C0E33, #D32FAC, #FFC940);
+}
+
+.teams-card-rewards-wrap{
+    position: absolute;
+}
+
+.teams-card-rewards{
+    position: relative;
+    width: 169px;
+    height: 24px;
+    left: -19px;
+    top: -20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.teams-card-rewards div{
+    width: 32px;
+    height: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.teams-card-img{
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 129px;
+    height: 129px;
+}
+
+.teams-card-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.streams-pic-block-button{
+    display: block;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 55px;
+    background-image: url(../../assets/fame/s1/кружок.svg);
+    background-size: 56px 55px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 110px;
+    margin-top: 40px;
+    
+    z-index: 20;
+}
+
+.streams-pic-block-button-in {
+    display: block;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 23px;
+    height: 26px;
+    background-image: url(../../assets/fame/s1/треугольничек.svg);
+    background-size: 23px 26px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    top: 15px;
+    left: 18px;
+}
+

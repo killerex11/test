@@ -1,0 +1,192 @@
+.playoff{
+    margin-top: 150px;
+}
+
+
+.playoff-bracket{
+    margin-top: 101px;
+}
+
+.playoff-bracket-row{
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.playoff-bracket-start{
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+
+    font-size: 17px;
+    width: 35px;
+    padding: 17px 0;
+}
+
+.playoff-bracket-start-line{
+    background-image: url("../assets/schedule/bracket-start.svg");
+    height: 5px;
+    width: 100%;
+    background-position: right;
+}
+
+.playoff-bracket-teams-1-8{
+    gap: 21px;
+}
+
+.playoff-bracket-1-8-column{
+    gap: 29px;
+}
+
+.playoff-bracket-team{
+    justify-content: space-between;
+    align-items: center;
+    width: 191px;
+    height: 53px;
+    border-radius: 11px;
+    background-color: #050505;
+    padding: 13px;
+    box-sizing: border-box;
+
+    gap: 13px;
+}
+
+.playoff-bracket-team-image-wrapper{
+    position: relative;
+    width: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playoff-bracket-team-image{
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    /*background-color: #D9D9D9;*/
+
+    background-image: url("../assets/logos/logo-small-gray.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.playoff-bracket-team-name{
+    font-size: 12px;
+    width: 92px;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playoff-bracket-game-time{
+    gap: 13px;
+    margin-bottom: 7px;
+    align-self: end;
+}
+
+.playoff-bracket-game-time p{
+    display: flex;
+    justify-content: center;
+    height: 16px;
+    width: 36px;
+
+    font-size: 12px;
+    color: #C0F500;
+}
+
+.playoff-bracket-8-to-4-top{
+    height: 306px;
+    width: 124px;
+    background-image: url("../assets/schedule/bracket-8-to-4-top.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    align-self: end;
+}
+
+.playoff-bracket-1-4-column{
+    margin-left: 22px;
+    margin-bottom: 58px;
+}
+
+.playoff-bracket-teams-1-4{
+    gap: 53px;
+}
+
+.playoff-bracket-6-to-4-top{
+    background-image:  url("../assets/schedule/bracket-6-4-top.svg");
+    background-repeat: no-repeat;
+    height: 182px;
+    width: 376px;
+    background-position-y: 45px;
+}
+
+.format-and-time{
+    font-size: 12px;
+    color: #C0F500;
+    justify-content: space-between;
+}
+
+.game-name{
+    margin-bottom: 29px;
+    color: #C0F500;
+    font-size: 23px;
+    justify-content: end;
+}
+
+.playoff-bracket-between{
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    height: 23px;
+
+    margin-top: 26px;
+    margin-bottom: 27px;
+    margin-left: 230px;
+}
+
+.playoff-bracket-grand-line{
+    height: 100%;
+    width: 270px;
+
+    font-size: 14px;
+    letter-spacing: 15px;
+    color: #2B2B2B;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.playoff-bracket-vk-play{
+    background-image: url("../assets/sponsors/vk-play.svg");
+    background-size: 119px;
+    width: 119px;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.playoff-bracket-8-to-6-top{
+    margin-top: 22px;
+    background-image: url("../assets/schedule/bracket-8-6-bot.svg");
+    width: 124px;
+    height: 285px;
+    align-self: start;
+}
+
+.playoff-bracket-4-to-2-bot{
+    background-image: url("../assets/schedule/bracket-final-bot.svg");
+    width: 74px;
+    height: 134px;
+}
+
+.playoff-bracket-bot-to-top{
+    margin-top: 172px;
+    width: 45px;
+    height: 356px;
+    background-image: url("../assets/schedule/bracket-bot-to-top2.svg");
+}
+
+.end-wrapper{
+    align-items: center;
+}
+
